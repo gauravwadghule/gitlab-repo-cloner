@@ -1,0 +1,24 @@
+{
+  "name": "gitlab-repo-clonner",
+  "version": "1.0.0",
+  "description": "This script will help users to clone gilab projects in proper folder structure and in very hassle free way.",
+  "main": "index.js",
+  "bin":"index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Gillab",
+    "repo",
+    "clonner"
+  ],
+  "author": "Team-IT",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "mkdirp": "^1.0.4",
+    "readline-sync": "^1.4.10",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.6"
+  }
+}
